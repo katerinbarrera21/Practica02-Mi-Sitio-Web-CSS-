@@ -1,0 +1,31 @@
+
+h1 {
+    font-size: 100px;
+    color: rgb(146, 5, 5);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 30px;
+    color: maroon;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: normal;
+}
+.separarPublicidad{
+    float: right;
+    width: 20%
+}
+.separar{
+    float:left;
+    width: 60%
+}
+
+.separarIndicie{
+    float: left;
+    width: 20%
+}
+
+ 
+.centrado{text-align:center}
+.justificado{text-align:justify}
