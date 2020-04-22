@@ -1,10 +1,404 @@
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cuerpoBlanco {
+    color:white;
+    font-family: Prata;
+    text-align: left;
+    margin-left: 80px;
+
+}
+
+.centrado{
+    text-align:center;
+    width: 100%;
+    float: left;
+}
+
+
 h1 {
-    font-size: 100px;
-    color: rgb(146, 5, 5);
+    font-size: 50px;
+    color:rgb(192, 18, 18);
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
+
+h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Prata;
+    font-weight: lighter;
+    font-style: normal;
+    fill-opacity: inherit;
+}
+
+
+/* ////////////////////////////////////////////////////// LOGO  IMAGEN   /////////////////////////////////////////////*/
+   
+.logo{
+    width: 100%;
+    height: 70%;
+    border-radius: maroon;
+}
+
+/*con esto dimensiono la imagen del logo*/
+
+
+#leftFloat {
+    margin-left: 5px;
+    margin-top: 15px;
+    /*padding: 10px 0px 10px 0px; */
+    margin-right: 5px;
+    margin-bottom: 15px;
+    /* text-align: inherit; */
+    width: 5%;
+    /* line-height: 160px; */
+    background-color: white;
+    /* background-position: center; */
+    float: left;
+}
+
+
+
+#rightFloat {
+    width: 90%;
+    height: 100%;
+    margin-left: 10px;
+    /* padding: 10px 10px 10px 10px; */
+    background-color:white;
+    text-align: center;
+    float: left;
+}
+
+
+
+
+/* ////////////////////////////////////////////////////// BUSCAR           /////////////////////////////////////////////*/
+  
+/*parte que contiene boton de buscar */
+
+#rightFloat .posicionBoton {
+    width: 69%;
+    padding: 40px 50px 40px 0px;
+    background-color: white;
+    text-align: center; 
+    float: left;
+}
+
+
+
+#rightFloat .posicionBoton .containerBuscar{
+    width: 100%;
+    padding-left: 25px;
+}
+
+/* ubicar logo de busqueda */
+#rightFloat .posicionBoton .containerBuscar .icon{
+    position: absolute;
+    float: left;
+  }
+
+/* Editar la parte que  encierra el icono de buscar */
+  #rightFloat .posicionBoton .containerBuscar input.botonBuscar{
+    width: 95%;
+    height: 40px;
+    background: white;
+    border: currentColor red;
+    font-size: 13pt;
+    padding-left: 60px;
+    border-radius: 100px;
+  }
+
+
+
+
+  
+/* ////////////////////////////////////////////////////// USUARIO   /////////////////////////////////////////////*/
+  
+/*Contenedor grande que tiene opciones de usuario*/
+
+  #rightFloat .opcionesUsuairo{
+    width: 25%;
+    height: 25px;
+    padding: 19px 0px 19px 0px;
+    line-height: 25px;
+    background-color:white;
+    text-align: center;
+    float: left;
+}
+
+/*contendor mas pequenio con cada uno */
+
+#rightFloat .opcionesUsuairo .containerUsuario{
+    width: 95%;
+    height: 25px;
+    margin-left: 2px;
+    padding-left: 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color:white;
+}
+
+#rightFloat .opcionesUsuairo .containerUsuario .btnAcceder{
+    width: 15%;
+    margin-right: 50px;
+    padding: 5px 10px 5px 10px;
+    color:red;
+    float: left;
+}
+
+#rightFloat .opcionesUsuairo .containerUsuario .btnMensajeria{
+    width: 15%;
+    padding: 5px 10px 5px 10px;
+    color:red;
+    float: left;
+}
+
+
+#rightFloat .opcionesUsuairo .containerUsuario .btnCrearCuenta{
+    width: 15%;
+    margin-left: 50px;
+    padding: 5px 10px 5px 10px;
+    color: red;
+    float: left;
+}
+
+
+/* ////////////////////////////////////////////////////// LIMPIAR /////////////////////////////////////////////*/
+  
+.separador{
+    width: 100px;
+    height: 0px;
+    background-color: rgb(90, 12, 12);
+    clear: both;
+}
+
+
+/* ////////////////////////////////////////////////////// MENU   /////////////////////////////////////////////*/
+  
+
+#nav{
+    height: 62px;
+    background-color:rgb(134, 5, 5);
+    text-align: center;
+  }
+
+  #nav ul{
+     list-style: none;
+     display: inline-block;
+  }
+
+  #nav ul li{
+      float: left;
+      margin-top: 20px;
+  }
+
+  #nav ul li a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 20px;
+  }
+
+  #nav ul li a:hover{
+    background-color: black;
+  }
+
+/* ////////////////////////////////////////////////////// IMAGEN   FONDO       /////////////////////////////////////////////*/
+  
+
+.fondo {
+    width: 100%;
+    text-align: center;
+    float: left;
+    background-position: center;
+    position: relative;   
+    
+}
+
+
+
+.botones {
+    width: 30%;
+    height: 400px;
+    margin-top: 290px;
+    margin-left: 300px;
+    padding: 5px 20px 5px 20px;
+    float: left;
+    position:  absolute;
+}
+
+.botones  .iniciarSesion {
+    width: 40%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 10px;
+    border-radius: 5px;
+    position: relative;
+    border-style: groove;
+} 
+
+a {
+    list-style: none;
+    color: black;
+    
+}
+
+.botones  .registrarte {
+    width: 30%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 20px;
+    border-radius: 5px;
+    position: relative;
+    border-style: groove;
+} 
+
+
+
+h4 {
+    color:white;
+    font-size: 20px;
+    font-family: Prata;
+}
+.textoBoton {
+    float: left;
+    padding: 2px 5px 2px 5px;
+
+    line-height: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+/* ////////////////////////////////////////////////////// SAKE  COMPRAR/////////////////////////////////////////////*/
+  
+.fondo {
+    width: 100%;
+    text-align: center;
+    float: left;
+    background-position: center;
+    position: relative;   
+    
+}
+.tabla{
+    width: 100%;
+    height: 250px;
+    float: left;
+    background-position: center;
+    position: relative;
+    background-color:rgb(36, 3, 3);
+    
+
+}
+
+table {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 70%;
+ }
+
+ th, td {
+    width: 20%;
+    text-align: center;
+    vertical-align: top;
+
+ }
+
+ .verMas {
+    
+    margin-right: 660px;
+    color:white;
+    border-radius: 5px;
+    float: right;
+    border-style: groove;
+    text-align: center;
+} 
+
+/*///////////////////////////////////////////// TESTIMONIOS/////////////////////////////////////////////////////*/
+
+
+
+
+.alcenter{text-align:center;}
+
+#TestC{
+     width:100%;
+   }
+   
+   .redz{
+     width:100%;
+     height:100%;
+     background-color: rgba(25, 87, 6, 0.6);
+     position:relative;
+   }
+   
+   #TestC h1{
+     margin-left:35%;
+     padding-top:1%;
+     font-family: Patra;
+     color:white;
+   }
+   
+  
+   .quote-section{
+     width:55%;
+     margin-left:530px;
+     position:relative;
+     padding:20px;
+     border-radius:10px;
+     color:rgb(58, 6, 6);
+     background:rgb(177, 171, 171);
+   }
+   
+   .quote-section p{
+    font-size: 10px;
+    font-family: Patra;
+   }
+
+   .autor-section{
+     width:30%;
+     margin:0 auto;
+     margin-top:1%;
+     color:#eee;
+     font-size:16px;
+     text-align:center;
+     border-radius:5px;
+     background:rgba(236, 9, 9, 0.2);
+     padding:5px;
+   }
+   
+
+
+
+
+
+   
+
+/*///////////////////////////////////////////////////FOOTER./////////////////////////////////////////////////////*/
+
+
+.foot {
+    clear: both;
+ }
+
+
+
+
+
+
+
+/*
 h2 {
     font-size: 30px;
     color: maroon;
@@ -27,5 +421,23 @@ h2 {
 }
 
  
-.centrado{text-align:center}
-.justificado{text-align:justify}
+.centrado{
+    text-align:center;
+    width: 100%;
+    float: left;
+}
+.justificado{
+    text-align:justify;
+}
+
+.botonEncabezado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: palevioletred;
+    border-radius: 6px;
+    border: 2px maroon;
+  }
+  */

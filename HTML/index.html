@@ -11,26 +11,225 @@
      Filename: index.html
      -->
 
-    <title>Conoce Japon</title>
+    <title>Japon</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="japon, comida, anime, turismo, tecnologia" />
     <link rel="stylesheet" type="text/css" href="../CSS/configuracion.css"/>
+    <link rel="stylesheet" type="text/css" href="../CSS/textos.css"/>
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/estrellas.css"/>
+
+    
+
 </head>
 
 <body>
     <header>
-        <h1 class="centrado" > JAPÓN </h1>
-        <img src="../Imagenes/imagenes/grande2.jpg" alt="imagen del sol naciente en Japon" style="max-width: 100% "/>
+
+    
+           <!--
+                 <p>
+               Búsqueda de música: 
+            <input class="boton_personalizado" type="search" name="busquedamusica">
+            <input class="boton_personalizado" type="submit" value="Buscar">
+            </p>
+           --> 
+           
+        <div class="logo">
+            
+            <a href="index.html" title="Ir a la Pagina principal"> <img  src="../Imagenes/logoJapon/logo.jpg" id="leftFloat" 
+                > </a>
+                
+            
+            <div id="rightFloat"> 
+               
+                <div class="posicionBoton">
+                    <div class="containerBuscar">
+                        <span class="icon">
+                            <img  class=".imagenRedonda" src="../Imagenes/logoJapon/buscar.png" alt="buscar"
+                            width="40" height="40">
+                        </span>
+                        <input class="botonBuscar" type="search"  placeholder="Buscar..." value=""/>
+                    </div>
+                </div>
+
+                <div class="opcionesUsuairo">
+                    <div class="containerUsuario">
+                        <span class="btnAcceder">
+                            <img src="../Imagenes/logoJapon/usuario.png" alt="Acceder a la cuenta"
+                            width="50" height="50">
+                            <h4>Acceder</h4>
+
+                        </span>
+
+                        <span class="btnMensajeria">
+                            <img class=".imagenRedonda" src="../Imagenes/logoJapon/mensaje.png" alt="Enviar mensaje"
+                            width="50" height="50">
+                            <h4>Mensajería</h4>
+                        </span>
+
+                        <span class="btnCrearCuenta">
+                            <img src="../Imagenes/logoJapon/agregar.png"
+                             alt="Crear Cuenta"
+                             width="50" height="50">
+                            <h4>Crear Cuenta</h4>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+       <div class="foot"></div>
+
+
+        
     </header>
 
+           
+    <div id="nav">
+        <ul>
+          <li><a href="index.html">Pagina Principal</a></li>
+          <li><a href="japon.html">Sobre Japón</a></li>
+          <li><a href="anime.html">Anime</a></li>
+          <li><a href="tradiciones.html">Tradiciones</a></li>
+          <li><a href="museoDital.html">Museo Digital</a></li>
+          <li><a href="comida.html">Gastronomia</a></li>
+          <li><a href="lugares.html">Lugares</a></li>
+          <li><a href="musica.html">Musica</a></li>
+        </ul>
+
+    </div>
          <!--
             Primera seccion
         -->
-       <section>
+        <div class="foot"></div>
+
+        <div class="fondo">
+            <img src="../Imagenes/imagenes/inicioJapon.png" alt="imagen del sol naciente en Japon" style="width: 100% "/>
+        </div>
+       
+
+        <section class="botones">
+            <header>
+                <p class="cuerpoBlanco", class="alinearDerecha">
+                    <em>"Los cerezos <br>
+                    se derraman en la estela <br>
+                    del viento, <br>
+                    y en el cielo sin agua <br>
+                    hasta olas se levantan" <br> </em><br>
+                    <b> 紀貫之 Ki no Tsurayuki<b><br>
+                    </p> 
+            </header>
+
+                    
+            
+            <div class="iniciarSesion">
+                <a  href="iniciarSesion">
+                    <h4 class="textoBoton">
+                        Iniciar sesión
+                    </h4>
+                </a>
+            </div>
+
+            <div class="registrarte">
+                <a href="regristrarse.html" >
+                    <h4 class="textoBoton">
+                        Registrate
+                    </h4>
+                </a>
+            </div>
+        </section>
+
+     <div class="separador"></div>
+       
+        <section class="tabla" >
+            <header>
+                <h2 class="centrado"><strong> SAKE </strong></h2>
+            </header>
+            <div >
+                <table>
+                    <tr>
+                        <td><a href="#"><img src="../Imagenes/producto/sake1.png"  alt="sake1" width="100" height="100" /></a></td>
+                        <td><a href="#"><img src="../Imagenes/producto/sake5.jpg" alt="sake2"  width="100" height="100" /></a></td>
+                        <td><a href="#"><img src="../Imagenes/producto/sake2.png" alt="sake3" width="100" height="100" /></a></td>
+                        <td><a href="#"><img src="../Imagenes/producto/sake4.jpg" alt="sake4" width="100" height="100" /></a></td>       
+                        <td><a href="#"><img src="../Imagenes/producto/sake3.png" alt="sake5" width="100" height="100" /></a></td>
+                    </tr>
+
+                </table>               
+            </div>
+
+            <div class="verMas">
+                <a  href="#">
+                    <h4 class="textoBoton">Comprar Ahora</h4>
+                </a>
+            </div>
+        
+        </section>
+
+
+        <div class="separador"></div>
+
+
+        <section class="TestC">
+
+            <header>
+                <h5 class="redz">
+                    Sección Comentarios
+                </h5>
+            </header>
+
+            <div>
+                <div class="redz">
+                    <h4>Comentarios </h4>
+                <!--Contenedor slides -->
+                <div class="rate">
+
+                    <input type="radio" id="star5" name="rate" value="5"/>
+                  
+                    <label for="star5" title="text">5 stars</label>
+                  
+                    <input type="radio" id="star4" name="rate" value="4" />
+                  
+                    <label for="star4" title="text">4 stars</label>
+                  
+                    <input type="radio" id="star3" name="rate" value="3" />
+                  
+                    <label for="star3" title="text">3 stars</label>
+                  
+                    <input type="radio" id="star2" name="rate" value="2" />
+                  
+                    <label for="star2" title="text">2 stars</label>
+                  
+                    <input type="radio" id="star1" name="rate" value="1" />
+                  
+                    <label for="star1" title="text">1 star</label>
+                  
+                  </div>
+
+                    <div class="quote-section" class="centrado">
+
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vel, reprehenderit totam possimus animi iure aliquid non ratione assumenda! Vero perspiciatis earum consequuntur nesciunt. Omnis nam dolores itaque. Esse, similique? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus accusantium quos nulla rerum quidem laudantium autem deleniti unde rem veritatis! Explicabo fugit facere inventore eveniet libero at, quibusdam consectetur velit.
+                      </p>
+                    </div>
+
+              </div>
+        </SEction>
+
+
+        
+
+
+
+        <section>
+         <header> 
             <h3>Conoce todo sobre Japón</h3>
-         <header>
-            <a href="japon.html">MÁS SOBRE JAPÓN (PRESIONE AQUI)</a>
+
+
+
+
          </header>
 
            <article>

@@ -1,0 +1,43 @@
+
+.rate {
+
+  border: 1px solid #cccccc;
+  margin-top: 20px;
+  float: left;
+  height: 46px;
+  padding: 0 10px; /*cero para arriba y abajo y 10 para las esquinas*/
+
+}
+
+/*sobrepone estrellas*/
+.rate:not(:checked) > input {
+  
+ left: 1000px; /*parte arreglar boton sale de la pantalla*/
+ position: absolute;
+
+}
+
+ 
+
+.rate:not(:checked) > label {
+
+  float: right; /*seleccionar de izq a derecha*/
+  width: 30px; /*separacion entre estrellas*/
+  overflow: hidden; /*sobrepone las estrellas los valores que tiene cada estrella*/
+  white-space: nowrap; 
+  font-size: 30px; /*tamanio de la estrella*/
+  color: #ccc;
+}
+
+ 
+
+.rate:not(:checked) > label:before { content: '★ ';
+ }
+/*color de la estralla seleccionada*/
+.rate > input:checked ~ label { color: #ffc700; }
+
+/*Color cuando esta sobre las estrellas*/
+.rate:not(:checked) > label:hover, .rate:not(:checked) > label:hover ~ label { color: #deb217; }
+
+ 
+
