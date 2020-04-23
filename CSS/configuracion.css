@@ -19,23 +19,6 @@
 }
 
 
-h1 {
-    font-size: 50px;
-    color:rgb(46, 6, 6);
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-
-h2 {
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-    font-family: Prata;
-    font-weight: lighter;
-    font-style: normal;
-    fill-opacity: inherit;
-}
 
 
 /* ////////////////////////////////////////////////////// LOGO  IMAGEN   /////////////////////////////////////////////*/
@@ -45,6 +28,8 @@ h2 {
     width: 100%;
     height: 150px;
     position: relative;
+    margin-top: 10PX;
+
 }
 
 
@@ -110,7 +95,7 @@ h2 {
     position: absolute;
     float: right;
     margin-top: 0.1%;
-    margin-left: 0.9%;
+    margin-left:-0.9%;
 }
 
 /* Editar la parte que  encierra el icono de buscar */
@@ -151,16 +136,17 @@ h2 {
     margin-left: 2%;
     width: 26%;
     margin-right: 2%;
-    color: #2e2e2e;
+    color: #ffffff;
     float: left;
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 10%;
-    border-style: outset;
-    border-color: #f7f7f7;
+    /* border-style: outset; */
+    /* border-color: #f7f7f7; */
     text-align: center;
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
 
 }
+
 
 
 
@@ -168,7 +154,8 @@ h2 {
   
 .separador{
     width: 100px;
-    background-color: rgb(90, 12, 12);
+    height: 10PX;
+    background-color: rgb(255, 255, 255);
     clear: both;
 }
 
@@ -178,7 +165,7 @@ h2 {
 
 #nav{
     height: 62px;
-    background-color:rgb(32, 20, 20);;
+    background-color:rgb(32, 20, 20); 
     text-align: center;
     position: relative;
   }
@@ -202,7 +189,7 @@ h2 {
   }
 
   #nav ul li a:hover{
-    background-color: black;
+    background-color: red;
   }
 
 /* ////////////////////////////////////////////////////// IMAGEN   FONDO       /////////////////////////////////////////////*/
@@ -210,10 +197,12 @@ h2 {
 
 .fondo {
     width: 100%;
+    height: 731px;
     text-align: center;
     float: left;
     background-position: center;
-    position: relative;   
+    position: relative; 
+    border-radius: 15PX;  
     
 }
 
@@ -221,52 +210,38 @@ h2 {
 
 .botones {
     width: 30%;
-    height: 400px;
-    margin-top: 290px;
-    margin-left: 300px;
-    padding: 5px 20px 5px 20px;
-    float: left;
-    position:  absolute;
+    height: 40%;
+    margin-top: 22%;
+    margin-left: 18%;
+    position: absolute;
 }
 
-.botones  .iniciarSesion {
-    width: 40%;
+.botones .iniciarSesion {
+    width: 30%;
+    height: 15%;
     float: left;
-    margin-top: 150px;
-    margin-left: 10px;
-    border-radius: 5px;
-    position: relative;
-    border-style: groove;
+    margin-top: 23%;
+    margin-left: 25px;
+    border-radius: 5%;
+    border-style: inset;
+    background-color:#0e0b0bbf;
 } 
+
+
 
 a {
     list-style: none;
-    color: black;
+    color:white;
+    text-align: center;
+    font-size: 29px;
+    font-family:  initiaL ;
     
 }
 
-.botones  .registrarte {
-    width: 30%;
-    float: left;
-    margin-top: 150px;
-    margin-left: 20px;
-    border-radius: 5px;
-    position: relative;
-    border-style: groove;
-} 
 
-
-
-h4 {
-
-    color: #410909;
-    font-size: 100%;
-    font-family: auto;
-}
 .textoBoton {
     float: left;
     padding: 2px 5px 2px 5px;
-
     line-height: 20px;
     word-spacing: 3px;
     letter-spacing: 2px;
@@ -278,40 +253,48 @@ h4 {
 
 /* ////////////////////////////////////////////////////// SAKE  COMPRAR/////////////////////////////////////////////*/
   
-.fondo {
-    width: 100%;
-    text-align: center;
-    float: left;
-    background-position: center;
-    position: relative;   
-    
-}
 
-.tabla h1{
-    font-size: 50px;
-    color: white;
-}
+
 .tabla{
-    width: 100%;
+    width: 96%;
     height: 250px;
     float: left;
     background-position: center;
     position: relative;
-    background-color:rgb(36, 3, 3);
+    background-color:rgb(16, 0, 0);
     margin-bottom: 5px;
+    border-radius: 20PX;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /*border-color: #9c9797; */
+    /*border-style: outset;*/
     
 
 }
 
-table {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 70%;
+.tabla h1{
+
+    font-style: unset;
+    color: #fa0606;
+}
+
+.tabla table {
+    /* margin-top: 20%; */
+    /* margin-top: 20%; */
+    margin-bottom: 1.5%;
+    width: 98%;
+    /* height: 100%; */
+    background-color: rgb(16, 0, 0);
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
  }
 
- th, td {
-    width: 20%;
+ 
+
+ .tabla table th, td {
+    width: 10%;
     text-align: center;
     vertical-align: top;
 
@@ -319,56 +302,83 @@ table {
 
  .verMas {
     
-    margin-right: 660px;
-    color:white;
-    border-radius: 5px;
-    float: right;
-    border-style: groove;
+    margin-left: 42%;
+    color: white;
+    border-radius: 5%;
+    float: left;
+    border-style: inset;
     text-align: center;
 } 
 
 /*///////////////////////////////////////////// TESTIMONIOS/////////////////////////////////////////////////////*/
 
 
-
-
-.alcenter{text-align:center;}
-
-#TestC{
-     width:100%;
-
-   }
-   
-   .redz{
-     width:100%;
-     position:relative;
+ 
+#Comentario {
+     width:90%;
+     height: 250px;
+     position: relative;
      background-color: darkgrey;
+     margin-left: 5%;
+     border-radius: 15PX;
+     margin-top: 1%;
    }
+
    
-   div h1{
+#Comentario h1{
+
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Prata;
+    text-align: center;
+}
+
+
+ .separarCalificacion { /* Seccion Comentarios*/
+    
+    width: 40%;
+    height: 100%;
+    background-color: darkgrey;
+    float: left;
+
+}
+
+ .separarComentario { /* Seccion Comentarios*/
+    width: 60%;
+    height: 100%;
+    background-color: darkgrey;
+    position: relative;
+    float: left;
+}
+
+
+   
+   .separarComentario h1{
 
      color:rgb(46, 6, 6);
      margin-left: 35%;
-     font-size: 50px;
+     font-size: 40px;
+
    }
    
   
-   .quote-section{
+   .comentarioParrafo {
        
-     width:55%;
-     margin-left:530px;
-     margin-bottom: 10px;
-     position:relative;
-     padding:20px;
-     border-radius:10px;
-     color:rgb(58, 6, 6);
-     background:rgb(148, 141, 141);
-   }
+    width: 85%;
+    /* margin-bottom: 1%; */
+    margin-top: 3%;
+    position: relative;
+    padding: 3%;
+    border-radius: 15px;
+    color: #ffffff;
+    background: rgb(148, 141, 141);
+}
    
-   .quote-section p{
-    font-size: 10px;
-    font-family: Patra;
-   }
+   .comentarioParrafo p {
+    font-size: 14px;
+    font-family: -WEBKIT-PICTOGRAPH;
+    text-align: justify;
+}
 
    .autor-section{
      width:30%;
@@ -382,12 +392,66 @@ table {
      padding:5px;
    }
    
+/*////////////////////////////////////////////SOCIOS////////////////////////////////////////////////////////*/
+#Equipo {
+    margin-top: 2%;
+    width:96%;
+    height: 250px;
+    position: relative;
+    background-color: rgb(48, 2, 2);
+    border-radius: 40PX;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .infoPersonal {
+    
+    margin-left: 42%;
+    color: rgb(196, 188, 188);
+    border-radius: 5%;
+    float: left;
+    border-style: inset;
+    text-align: center;
+}
+
+
+.imagenRedonda {
+    border-radius: 100%;
+    border-color: white;
+    border-style: solid;
+}
+
+.present {
+    
+    margin-left: 43%;
+    border-radius: 10PX;
+    height: 12%;
+    float: left;
+    border-style: inset;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+} 
+
+
+#Equipo h4{
+    font-size: 20px;
+    color: rgb(54, 5, 5);
+
+}
+
+#Equipo h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+
+}
 
 
 
+   table {
+      background-color: #ff0303c9; 
+   }
 
 
-   
+
 
 /*///////////////////////////////////////////////////FOOTER./////////////////////////////////////////////////////*/
 
