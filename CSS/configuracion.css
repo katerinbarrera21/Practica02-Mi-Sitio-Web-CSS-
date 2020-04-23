@@ -21,7 +21,7 @@
 
 h1 {
     font-size: 50px;
-    color:rgb(192, 18, 18);
+    color:rgb(46, 6, 6);
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
@@ -40,80 +40,90 @@ h2 {
 
 /* ////////////////////////////////////////////////////// LOGO  IMAGEN   /////////////////////////////////////////////*/
    
+
 .logo{
     width: 100%;
-    height: 70%;
-    border-radius: maroon;
-}
-
-/*con esto dimensiono la imagen del logo*/
-
-
-#leftFloat {
-    margin-left: 5px;
-    margin-top: 15px;
-    /*padding: 10px 0px 10px 0px; */
-    margin-right: 5px;
-    margin-bottom: 15px;
-    /* text-align: inherit; */
-    width: 5%;
-    /* line-height: 160px; */
-    background-color: white;
-    /* background-position: center; */
-    float: left;
+    height: 150px;
+    position: relative;
 }
 
 
+.separarLogo {
+     width: 10%;
+     height: 100%;
+     float: left;
+    background-color: #270202;
 
-#rightFloat {
-    width: 90%;
+
+}
+
+.separarLogo a {
+    width: 100%;
     height: 100%;
-    margin-left: 10px;
-    /* padding: 10px 10px 10px 10px; */
-    background-color:white;
+    background-color: #270202;
     text-align: center;
     float: left;
+    margin-top: 19%;
+    margin-left: 8%;
 }
 
+.separarBuscar{
+    width: 70%;
+    height: 100%;
+    float: left;
 
+}
 
+.separarUsuario {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: #270202;
+
+}
 
 /* ////////////////////////////////////////////////////// BUSCAR           /////////////////////////////////////////////*/
   
 /*parte que contiene boton de buscar */
 
-#rightFloat .posicionBoton {
-    width: 69%;
-    padding: 40px 50px 40px 0px;
-    background-color: white;
-    text-align: center; 
+.separarBuscar .posicionBoton {
+    width: 100%;
+    height: 100%;
+    /* padding: 40% 50% 40% 0%; */
+    background-color: #270202;
+    text-align: center;
     float: left;
 }
 
-
-
-#rightFloat .posicionBoton .containerBuscar{
-    width: 100%;
-    padding-left: 25px;
+.separarBuscar .posicionBoton .containerBuscar {
+    width: 90%;
+    height: 60%;
+    float: left;
+    background-color: #270202;
+    margin-top: 5%;
+    margin-left: 5%;
 }
+
 
 /* ubicar logo de busqueda */
-#rightFloat .posicionBoton .containerBuscar .icon{
+.separarBuscar .posicionBoton .containerBuscar .icon {
     position: absolute;
-    float: left;
-  }
+    float: right;
+    margin-top: 0.1%;
+    margin-left: 0.9%;
+}
 
 /* Editar la parte que  encierra el icono de buscar */
-  #rightFloat .posicionBoton .containerBuscar input.botonBuscar{
-    width: 95%;
-    height: 40px;
-    background: white;
-    border: currentColor red;
+
+
+  .separarBuscar .posicionBoton .containerBuscar input.botonBuscar {
+    width: 100%;
+    height: 60%;
+    background: #d8d4d4;
     font-size: 13pt;
     padding-left: 60px;
-    border-radius: 100px;
-  }
-
+    border-radius: 10px;
+}
 
 
 
@@ -122,58 +132,42 @@ h2 {
   
 /*Contenedor grande que tiene opciones de usuario*/
 
-  #rightFloat .opcionesUsuairo{
-    width: 25%;
-    height: 25px;
-    padding: 19px 0px 19px 0px;
-    line-height: 25px;
-    background-color:white;
-    text-align: center;
+  .separarUsuario .opcionesUsuairo{
+
+
+    width: 20%;
+    height: 100%;
     float: left;
+    background-color: #270202;
 }
 
 /*contendor mas pequenio con cada uno */
 
-#rightFloat .opcionesUsuairo .containerUsuario{
-    width: 95%;
-    height: 25px;
-    margin-left: 2px;
-    padding-left: 20px;
-    vertical-align: middle;
-    white-space: nowrap;
-    background-color:white;
+.separarUsuario .containerUsuario {
+     width: 100%; 
 }
 
-#rightFloat .opcionesUsuairo .containerUsuario .btnAcceder{
-    width: 15%;
-    margin-right: 50px;
-    padding: 5px 10px 5px 10px;
-    color:red;
+.separarUsuario  .containerUsuario .btnAcceder{
+    margin-left: 2%;
+    width: 26%;
+    margin-right: 2%;
+    color: #2e2e2e;
     float: left;
+    font-size: 10px;
+    margin-top: 10%;
+    border-style: outset;
+    border-color: #f7f7f7;
+    text-align: center;
+    background-color: #dddddd;
+
 }
 
-#rightFloat .opcionesUsuairo .containerUsuario .btnMensajeria{
-    width: 15%;
-    padding: 5px 10px 5px 10px;
-    color:red;
-    float: left;
-}
-
-
-#rightFloat .opcionesUsuairo .containerUsuario .btnCrearCuenta{
-    width: 15%;
-    margin-left: 50px;
-    padding: 5px 10px 5px 10px;
-    color: red;
-    float: left;
-}
 
 
 /* ////////////////////////////////////////////////////// LIMPIAR /////////////////////////////////////////////*/
   
 .separador{
     width: 100px;
-    height: 0px;
     background-color: rgb(90, 12, 12);
     clear: both;
 }
@@ -184,8 +178,9 @@ h2 {
 
 #nav{
     height: 62px;
-    background-color:rgb(134, 5, 5);
+    background-color:rgb(32, 20, 20);;
     text-align: center;
+    position: relative;
   }
 
   #nav ul{
@@ -263,9 +258,10 @@ a {
 
 
 h4 {
-    color:white;
-    font-size: 20px;
-    font-family: Prata;
+
+    color: #410909;
+    font-size: 100%;
+    font-family: auto;
 }
 .textoBoton {
     float: left;
@@ -290,6 +286,11 @@ h4 {
     position: relative;   
     
 }
+
+.tabla h1{
+    font-size: 50px;
+    color: white;
+}
 .tabla{
     width: 100%;
     height: 250px;
@@ -297,6 +298,7 @@ h4 {
     background-position: center;
     position: relative;
     background-color:rgb(36, 3, 3);
+    margin-bottom: 5px;
     
 
 }
@@ -334,31 +336,33 @@ table {
 
 #TestC{
      width:100%;
+
    }
    
    .redz{
      width:100%;
-     height:100%;
-     background-color: rgba(25, 87, 6, 0.6);
      position:relative;
+     background-color: darkgrey;
    }
    
-   #TestC h1{
-     margin-left:35%;
-     padding-top:1%;
-     font-family: Patra;
-     color:white;
+   div h1{
+
+     color:rgb(46, 6, 6);
+     margin-left: 35%;
+     font-size: 50px;
    }
    
   
    .quote-section{
+       
      width:55%;
      margin-left:530px;
+     margin-bottom: 10px;
      position:relative;
      padding:20px;
      border-radius:10px;
      color:rgb(58, 6, 6);
-     background:rgb(177, 171, 171);
+     background:rgb(148, 141, 141);
    }
    
    .quote-section p{
@@ -370,7 +374,7 @@ table {
      width:30%;
      margin:0 auto;
      margin-top:1%;
-     color:#eee;
+     color:rgb(59, 3, 3);
      font-size:16px;
      text-align:center;
      border-radius:5px;

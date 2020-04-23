@@ -3,6 +3,7 @@
 
   border: 1px solid #cccccc;
   margin-top: 20px;
+  margin-left: 100PX;
   float: left;
   height: 46px;
   padding: 0 10px; /*cero para arriba y abajo y 10 para las esquinas*/
@@ -13,7 +14,7 @@
 .rate:not(:checked) > input {
   
  left: 1000px; /*parte arreglar boton sale de la pantalla*/
- position: absolute;
+ position: absolute; 
 
 }
 
@@ -22,10 +23,10 @@
 .rate:not(:checked) > label {
 
   float: right; /*seleccionar de izq a derecha*/
-  width: 30px; /*separacion entre estrellas*/
+  width: 25px; /*separacion entre estrellas*/
   overflow: hidden; /*sobrepone las estrellas los valores que tiene cada estrella*/
   white-space: nowrap; 
-  font-size: 30px; /*tamanio de la estrella*/
+  font-size: 25px; /*tamanio de la estrella*/
   color: #ccc;
 }
 
