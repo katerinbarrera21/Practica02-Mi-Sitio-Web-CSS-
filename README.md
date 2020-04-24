@@ -15,6 +15,7 @@ siguientes imágenes
 ###  ACTIVIDADES DESARROLLADAS
 #### 1. En al menos una página HTML, un diseño a dos columnas con cabecera y pie de página, como el que se muestra en la Figura 2. Se pide tomar como base la página home.
 
+![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/dosFig.JPG)
 ##### Figura 2. Diseño de un sitio web con base a dos columnas
 
 
@@ -136,6 +137,7 @@ principal.
 
 ### 2. Así, como también se recomienda utilizar, en al menos una página HTML, un diseño a tres columnas concabecera y pie de página como se muestra en la Figura 3. Se pide tomar como base la página home.
 ### Importante: La cabecera y el pie de página serán iguales para cualquier tipo de diseño, ya se de dos columnas o de tres en este trabajo.
+![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/tresFig.JPG)
 
 ##### Figura 3. Diseño de un sitio web con base a tres columnas
 
@@ -189,7 +191,7 @@ El selector por clase columna 3 hace referencia al contenido y es menos ancho qu
 ####  }
 
 ###  2. De igual manera, se pide que se organice en al menos cuatro archivos CSS los estilos para las diferentes páginas html, estos archivos estarán almacenados en una carpeta llamada css. Un archivo será para el diseño a dos columnas, otro archivo para el diseño a tres columnas, otro archivo para el diseño de la página home. Por último, un archivo para la regla CSS relacionas a textos, colores, tablas, secciones, artículos, imágenes, etc.
-
+![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/carpeta.JPG)
 ###  1. Contenido de configuración
 ####  Se mostrará partes del código especificas debido a que el archivo es muy extenso.
 ####  Para el logo:
@@ -440,33 +442,63 @@ estéticos.
 ####  }
 
 ###  6. La evidencia de la validación de cada página HTML.
-   1. ANIME
-   2. COMIDA
-   3.FORMULARIO
-   4.INDEX
-   5.SOBRE JAPON
-   6.LUGARES
-   7.MUSEO DIGITAL
-   8.MUSICA
-   9.TRADICIONES
+###    1. ANIME
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/animeVal.JPG)
+###    2. COMIDA
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/comidaVal.JPG)
+###    3.FORMULARIO
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/formularioVal.JPG)
+###    4.INDEX
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/indexVal.JPG)
+###    5.SOBRE JAPON
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/sobreJaponVal.JPG)
+###    6.LUGARES
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/lugaresVal.JPG)
+###    7.MUSEO DIGITAL
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/museoDitalVal.JPG)
+###    8.MUSICA
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/musicaVal.JPG)
+###    9.TRADICIONES
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/tradicionVal.JPG)
 
 
 ###  7. La evidencia de la validación de cada página css.
 El programa emite tres errores, debido a que espera un documento html.
-    1. Configuración.css
-    2. Diseño de dos columnas.css
-    3. Diseño de tres columnas.css
-    4. Estrellas.css
-    5. Textos.css
-    6. Formulario.css
-    
+###    1. Configuración.css
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/configuracionVal.JPG)
+###    2. Diseño de dos columnas.css
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/dosColumnasVal.JPG)
+###    3. Diseño de tres columnas.css
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/tresColumnasVal.JPG)
+###    4. Estrellas.css
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/estrellasVal.JPG)
+###    5. Textos.css
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/textoVal.JPG)
+###    6. Formulario.css
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/formularioCSSVal.JPG)
 
 ###  RESULTADO(S) OBTENIDO(S):
 Se va mostrar como quedaron la paginas después de haber aplicados css sobre cada una de ellas.
 1.1. INDEX
-1.2. SOBRE JAPON
-1.3. TRADICIONES
-1.4. FOMULARIO
+
+### FORMULARIO
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/formulario.JPG)
+### INDEX
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/index.JPG)
+### ANIME
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/anime.JPG)
+### COMIDA
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/comida.JPG)
+### SOBRE JAPON
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/3Columnas.JPG)
+### LUGARES
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/lugares.JPG)
+### MUSEO DIGITAL
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/museo.JPG)
+### MUSICA
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/musica.JPG)
+### TRADICIONES
+   ![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/tradiciones.JPG)
 
 ####  CONCLUSIONES:
 Se realizo la practica con éxito. Las paginas fueron mejoradas con el código de css.
