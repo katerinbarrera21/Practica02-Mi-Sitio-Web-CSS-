@@ -48,6 +48,36 @@ section{
     margin-left: 450px;
     margin-right: 450px;
     margin-bottom: 100px;
-    border-style: solid;
-    border-color: red;
 }
+
+
+
+a:link {
+    color: rgb(224, 245, 38);
+    }
+    
+    /* muestra en gris los links visitados */
+    a:visited {
+    color:rgb(177, 14, 14);
+    }
+    
+    /* muestra en rojo los links en hover */
+    a:hover {
+    color:rgb(56, 199, 0);
+    }
+    
+    /* muestra en rojo claro los links activos */
+    a:active {
+    color:rgb(243, 1, 211);
+    }
+
+  
+    .botonEnviar{
+        width: 40%;
+        height: 15%;
+        float: left;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(255, 3, 3);
+        background-color:#ffffffec;
+    }
