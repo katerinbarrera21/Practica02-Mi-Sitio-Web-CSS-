@@ -190,334 +190,287 @@ El selector por clase columna 3 hace referencia al contenido y es menos ancho qu
 
 ###  2. De igual manera, se pide que se organice en al menos cuatro archivos CSS los estilos para las diferentes páginas html, estos archivos estarán almacenados en una carpeta llamada css. Un archivo será para el diseño a dos columnas, otro archivo para el diseño a tres columnas, otro archivo para el diseño de la página home. Por último, un archivo para la regla CSS relacionas a textos, colores, tablas, secciones, artículos, imágenes, etc.
 
-1. Contenido de configuración
-       Se mostrará partes del código especificas debido a que el archivo es muy extenso.
-       Para el logo:
-       Se crea una sección general de logo la cual se divide en tres secciones la primera que será para la imagen
-       del logo, la segunda para el buscador principal y la tercera parte es para las opciones de usuario, para los
-       iconos de acceder, correo y agregar.
-.logo{
-width: 100 %;
-height: 150 px;
-position: relative;
-}
-.separarLogo {
+###  1. Contenido de configuración
+####  Se mostrará partes del código especificas debido a que el archivo es muy extenso.
+####  Para el logo:
+Se crea una sección general de logo la cual se divide en tres secciones la primera que será para la imagen del logo, la segunda para el buscador principal y la tercera parte es para las opciones de usuario, para los iconos de acceder, correo y agregar.
+Para la seccion logo 
 
+####  .logo{
+####  width: 100 %;
+####  height: 150 px;
+####  position: relative;
+####  }
+####  .separarLogo {
+####  width: 10 %;
+####  height: 100 %;
+####  float: left;
+####  background-color: #020000;
+####  }
 
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-width: 10 %;
-height: 100 %;
-float: left;
-background-color: #020000;
-}
-.separarBuscar{
-width: 70 %;
-height: 100 %;
-float: left;
-}
-.separarUsuario {
-width: 20 %;
-height: 100 %;
-float: left;
-background-color: #020000;
-}
-1.1. Para la parte de separar logo, se crea un contenedor que tendrá todo la extensión del usuario. Con el
-selector de clase botón Acceder, lo vamos a implementar en los tres botones, acceder, correo y agregar
-de forma que todos tienen el mismo porcentaje.
-.separarUsuario .opcionesUsuairo{
-width: 20 %;
-height: 100 %;
-float: left;
-background-color: #ffffff;
-}
-_/*contendor mas pequenio con cada uno */_
-.separarUsuario .containerUsuario {
-width: 100 %;
-}
-.separarUsuario .containerUsuario .btnAcceder{
-margin-left: 2 %;
+Para la seccion buscar 
 
+####  .separarBuscar{
+####  width: 70 %;
+####  height: 100 %;
+####  float: left;
+####  }
 
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-width: 26 %;
-margin-right: 2 %;
-color: #ff0505;
-float: left;
-font-size: 15 px;
-margin-top: 5 %;
-_/* border-style: outset; */
-/* border-color: #f7f7f7; */_
-text-align: center;
-_/* background-color: #dddddd; */_
-}
+Para la seccion de opciones de usuario 
 
-2. Contenido de formularios
-Se crea el selector de clase principal como bloque, con un acho de 510px
-.principal {
-display:block;
-margin: 0 auto;
-width: 510 px;
-color: #d8d7d7;
-font-family:Arial;
-}
+####  .separarUsuario {
+####  width: 20 %;
+####  height: 100 %;
+####  float: left;
+####  background-color: #020000;
+####  }
+
+1.1. Para la parte de separar logo, se crea un contenedor que tendrá todo la extensión del usuario. Con el selector de clase botón Acceder, lo vamos a implementar en los tres botones, acceder, correo y agregar de forma que todos tienen el mismo porcentaje.
+
+####  .separarUsuario .opcionesUsuairo{
+####  width: 20 %;
+####  height: 100 %;
+####  float: left;
+####  background-color: #ffffff;
+####  }
+####  _/*contendor mas pequenio con cada uno */_
+####  .separarUsuario .containerUsuario {
+####  width: 100 %;
+####  }
+
+####  .separarUsuario .containerUsuario .btnAcceder{
+####  margin-left: 2 %;
+####  width: 26 %;
+####  margin-right: 2 %;
+####  color: #ff0505;
+####  float: left;
+####  font-size: 15 px;
+####  margin-top: 5 %;
+####  /* border-style: outset; */
+####  /* border-color: #f7f7f7; */
+####  text-align: center;
+####  /* background-color: #dddddd; */
+####  }
+
+###    2. Contenido de formularios
+ Se crea el selector de clase principal como bloque, con un acho de 510px
+ 
+####  .principal {
+####  display:block;
+####  margin: 0 auto;
+####  width: 510 px;
+####  color: #d8d7d7;
+####  font-family:Arial;
+####  }
+
 la etiqueta sección, en la que se encuentra nuestra etiqueta form tiene la siguiente configuración
-section{
-margin-left: 450 px;
-margin-right: 450 px;
-margin-bottom: 100 px;
-}
+
+####  section{
+####  margin-left: 450 px;
+####  margin-right: 450 px;
+####  margin-bottom: 100 px;
+####  }
+
 Para la etiqueta form se agrega un acho de 400px
-form {
-margin: 0 auto;
-width: 400 px;
-}
+####  form {
+####  margin: 0 auto;
+####  width: 400 px;
+####  }
 
-
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
 La configuración de la etiqueta a, el hipervínculo que existe en ese formulario, que es para regresar a nuestra
 pagina index.html
-a:link {
-color: rgb( 224 , 245 , 38 );
-}
-_/* muestra en gris los links visitados */_
-a:visited {
-color:rgb( 177 , 14 , 14 );
-}
-_/* muestra en rojo los links en hover */_
-a:hover {
-color:rgb( 56 , 199 , 0 );
-}
-_/* muestra en rojo claro los links activos */_
-a:active {
-color:rgb( 243 , 1 , 211 );
-}
 
-3. Contenido de textos
-    3.1. Importación de algunas fuentes que se utilizaron en la pagina web.
-@import url( _"https://fonts.googleapis.com/css2?family=Pacifico"_ );
-@import url( _'https://fonts.googleapis.com/css2?family=Abril+Fatface&family
-=Parisienne&display=swap'_ );
-@import url( _'https://fonts.googleapis.com/css2?family=Prata&display=swap'_ );
+####  a:link {
+####  color: rgb( 224 , 245 , 38 );
+####  }
+####  _/* muestra en gris los links visitados */_
+####  a:visited {
+####  color:rgb( 177 , 14 , 14 );
+####  }
+####  _/* muestra en rojo los links en hover */_
+####  a:hover {
+####  color:rgb( 56 , 199 , 0 );
+####  }
+####  _/* muestra en rojo claro los links activos */_
+####  a:active {
+####  color:rgb( 243 , 1 , 211 );
+####  }
+
+###  3. Contenido de textos
+3.1. Importación de algunas fuentes que se utilizaron en la pagina web.
+####  @import url( _"https://fonts.googleapis.com/css2?family=Pacifico"_ );
+####  @import url( _'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Parisienne&display=swap'_ );
+####  @import url( _'https://fonts.googleapis.com/css2?family=Prata&display=swap'_ );
 3.2. Configuración de etiquetas h
-h1 {
-font-size: 50 px;
-color:rgb( 46 , 6 , 6 );
-font-family: _'Times New Roman'_ , Times, serif;
-text-transform: uppercase;
-}
-h2 {
-font-size: 30 px;
-margin-top: 20 px;
-margin-bottom: 20 px;
-color: rgb( 255 , 255 , 255 );
 
+####  h1 {
+####  font-size: 50 px;
+####  color:rgb( 46 , 6 , 6 );
+####  font-family: _'Times New Roman'_ , Times, serif;
+####  text-transform: uppercase;
+####  }
 
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-font-family: Prata;
-font-weight: lighter;
-font-style: normal;
-fill-opacity: inherit;
-}
-h4 {
-color: white;
-font-size: 100 %;
-font-family: Georgia, _'Times New Roman'_ , Times, serif;
-}
-h7 {
-color:rgb( 46 , 6 , 6 );
-font-family: _'Times New Roman'_ , Times, serif;
-text-align: center;
-}
-h6 {
-color:rgb( 46 , 6 , 6 );
-font-family: _'Times New Roman'_ , Times, serif;
-text-align: center;
-}
+####  h2 {
+####  font-size: 30 px;
+####  margin-top: 20 px;
+####  margin-bottom: 20 px;
+####  color: rgb( 255 , 255 , 255 );
+####  font-family: Prata;
+####  font-weight: lighter;
+####  font-style: normal;
+####  fill-opacity: inherit;
+####  }
+
+####  h4 {
+####  color: white;
+####  font-size: 100 %;
+####  font-family: Georgia, _'Times New Roman'_ , Times, serif;
+####  }
+
+####  h7 {
+####  color:rgb( 46 , 6 , 6 );
+####  font-family: _'Times New Roman'_ , Times, serif;
+####  text-align: center;
+####  }
+
+####  h6 {
+####  color:rgb( 46 , 6 , 6 );
+####  font-family: _'Times New Roman'_ , Times, serif;
+####  text-align: center;
+####  }
+
 3.3. Utilizamos un selector de clase para los atributos como centrar o justificar un texto
-.centrado{
-text-align:center;
-width: 100 %;
-float: left;
-}
-.justificado {
-text-align: justify;
-}
+
+####  .centrado{
+####  text-align:center;
+####  width: 100 %;
+####  float: left;
+####  }
+####  .justificado {
+####  text-align: justify;
+####  }
+
 3.4. El selector separador es útil para cuando vamos a cambiar de sección y se debe volver a calcular los
 porcentajes de división.
-.separador{
 
+####  .separador{
+####  width: 100 %;
+####  background-color: rgb( 26 , 2 , 2 );
+####  clear: both;
+####  }
 
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-width: 100 %;
-background-color: rgb( 26 , 2 , 2 );
-clear: both;
-}
-4.Utilice selectores por etiquetas, selectores descendentes, selectores por clase y selectores por id.
-Se mostraran algunos ejemplos de partes en los que se utilizaron estos selectores.
+### 4.Utilice selectores por etiquetas, selectores descendentes, selectores por clase y selectores por id.
+####  Se mostraran algunos ejemplos de partes en los que se utilizaron estos selectores.
 
 1. Por etiquetas
     Solo para la etiqueta a hiperviculo
-a {
-list-style: none;
-color:rgb( 250 , 249 , 249 );
-text-align: center;
-font-size: 30 px;
-font-family: initiaL ;
-}
+    
+####  a {
+####  list-style: none;
+####  color:rgb( 250 , 249 , 249 );
+####  text-align: center;
+####  font-size: 30 px;
+####  font-family: initiaL ;
+####  }
+
 2. Selectores descendentes
 Se aplica solo para el hipervínculo que esta dentro de la etiqueta li que a su vez esta dentro de la etiqueta
 ul y debe haber utilizado un id nav.
-#nav ul li a:hover{
-background-color: red;
-}
+
+####  #nav ul li a:hover{
+####  background-color: red;
+####  }
+
 3. Por clase
+
 Utilizado por lo general en la pagina web para darle el fondo a toda la pagina y luego sobreponer las
 siguientes secciones.
-.fondoEntero{
-width: 100 %;
-height: 100 %;
-background-color: black;
-position: relative;
-}
 
+####  .fondoEntero{
+####  width: 100 %;
+####  height: 100 %;
+####  background-color: black;
+####  position: relative;
+####  }
 
-```
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-```
 4. Por id
-    Para la etiqueta nav se creo un id #nav, que atributos que se van aplicar solo cuando la etiqueta tenga el
-    id #nav
-#nav{
-height: 62 px;
-background-color:rgb( 32 , 20 , 20 );
-text-align: center;
-position: relative;
-}
+ Para la etiqueta nav se creo un id #nav, que atributos que se van aplicar solo cuando la etiqueta tenga el  id #nav
+ 
+####  #nav{
+####  height: 62 px;
+####  background-color:rgb( 32 , 20 , 20 );
+####  text-align: center;
+####  position: relative;
+####  }
+
 5. También, se pide que se cree un menú horizontal (navegación) para todas las páginas. Como se puede
 observar en la Figura 1.
 Con este código se crea el menu que tiene un fondo rojo, un ancho de 100% de la pagina y un alto de 62px.
 Se elimina el estilo por defecto con list-style:none
 Tenemos un margen top de 20px para que las opciones que vamos a poner en el menú se vean alineados y
 estéticos.
-#nav{
-height: 62 px;
-background-color:rgb( 32 , 20 , 20 );
-text-align: center;
-position: relative;
-}
-#nav ul{
-list-style: none;
-display: inline-block;
-}
-#nav ul li{
-float: left;
-margin-top: 20 px;
-}
-#nav ul li a {
-color: white;
-font-weight: bold;
-text-decoration: none;
-font-size: 20 px;
-padding: 20 px;
-}
+
+####  #nav{
+####  height: 62 px;
+####  background-color:rgb( 32 , 20 , 20 );
+####  text-align: center;
+####  position: relative;
+####  }
+
+####  #nav ul{
+####  list-style: none;
+####  display: inline-block;
+####  }
+
+####  #nav ul li{
+####  float: left;
+####  margin-top: 20 px;
+####  }
+
+####  #nav ul li a {
+####  color: white;
+####  font-weight: bold;
+####  text-decoration: none;
+####  font-size: 20 px;
+####  padding: 20 px;
+####  }
+
+####  #nav ul li a:hover{
+####  background-color: red;
+####  }
+
+###  6. La evidencia de la validación de cada página HTML.
+   1. ANIME
+   2. COMIDA
+   3.FORMULARIO
+   4.INDEX
+   5.SOBRE JAPON
+   6.LUGARES
+   7.MUSEO DIGITAL
+   8.MUSICA
+   9.TRADICIONES
 
 
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-#nav ul li a:hover{
-background-color: red;
-}
-
-6. La evidencia de la validación de cada página HTML.
-    1. ANIME
-    2. COMIDA
-    3.FORMULARIO
-
-
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-INDEX
-
-
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-SOBRE JAPON
-LUGARES
-MUSEO DIGITAL
-
-
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-MUSICA
-TRADICIONES
-
-
-```
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-```
-7. La evidencia de la validación de cada página css.
+###  7. La evidencia de la validación de cada página css.
 El programa emite tres errores, debido a que espera un documento html.
     1. Configuración.css
     2. Diseño de dos columnas.css
+    3. Diseño de tres columnas.css
+    4. Estrellas.css
+    5. Textos.css
+    6. Formulario.css
+    
 
-
-```
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-```
-3. Diseño de tres columnas.css
-4. Estrellas.css
-5. Textos.css
-
-
-```
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-```
-6. Formulario.css
-GITHUB:
-USUARIO katerinbarrera
-
-
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-REPOSITORIO https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-.git
-RESULTADO(S) OBTENIDO(S):
+###  RESULTADO(S) OBTENIDO(S):
 Se va mostrar como quedaron la paginas después de haber aplicados css sobre cada una de ellas.
 1.1. INDEX
-
-
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
 1.2. SOBRE JAPON
-
-
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-
-
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
 1.3. TRADICIONES
-
-
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
 1.4. FOMULARIO
-CONCLUSIONES:
+
+####  CONCLUSIONES:
 Se realizo la practica con éxito. Las paginas fueron mejoradas con el código de css.
 Se siguieron los estándares predeterminados por el docente.
 Se realizaron las paginas con el fin de llamar la atención de un cliente en un futuro, las paginas pueden ser
 mejoras.
 Se reforzaron los conocimientos adquiridos durante las clases.
-RECOMENDACIONES
-N/A
-Nombre de estudiante: __KATHERINE BARRERA ________
-Firma de estudiante: _______________________________
