@@ -110,4 +110,23 @@ a {
 
 
 
-/*////////////////////////////////TABLA ANME///////////////////////////////*/
+/*////////////////////////////////hiperviculos///////////////////////////////*/
+
+.foot a:link {
+    color: rgb(245, 245, 245);
+    }
+    
+     muestra en gris los links visitados 
+.foot     a:visited {
+    color:rgb(0, 0, 0);
+    }
+    
+    /* muestra en rojo los links en hover */
+ .foot   a:hover {
+    color:rgba(25, 187, 47, 0.938);
+    }
+    
+    /* muestra en rojo claro los links activos */
+ .foot   a:active {
+    color:rgb(240, 21, 210);
+    }
