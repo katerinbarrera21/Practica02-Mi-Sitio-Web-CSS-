@@ -1,7 +1,7 @@
 # PRÁCTICA DE LABORATORIO
-# CARRERA: COMPUTACIÓN ASIGNATURA: HIPERMEDIAL
-# NRO. PRÁCTICA: 2 TÍTULO PRÁCTICA: Resolución de problemas sobre CSS
-# OBJETIVO ALCANZADO:
+### CARRERA: COMPUTACIÓN ASIGNATURA: HIPERMEDIAL
+### NRO. PRÁCTICA: 2 TÍTULO PRÁCTICA: Resolución de problemas sobre CSS
+### OBJETIVO ALCANZADO:
 
 - Entender y organizar de una mejor manera los sitios de web en Internet
 - Diseñar adecuadamente elementos gráficos en sitios web en Internet.
