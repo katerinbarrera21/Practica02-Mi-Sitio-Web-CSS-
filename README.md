@@ -1,206 +1,196 @@
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-PRÁCTICA DE LABORATORIO
-CARRERA: COMPUTACIÓN ASIGNATURA: HIPERMEDIAL
-NRO. PRÁCTICA: 2 TÍTULO PRÁCTICA: Resolución de problemas sobre CSS
-OBJETIVO ALCANZADO:
+# PRÁCTICA DE LABORATORIO
+# CARRERA: COMPUTACIÓN ASIGNATURA: HIPERMEDIAL
+# NRO. PRÁCTICA: 2 TÍTULO PRÁCTICA: Resolución de problemas sobre CSS
+# OBJETIVO ALCANZADO:
 
 - Entender y organizar de una mejor manera los sitios de web en Internet
-- • Diseñar adecuadamente elementos gráficos en sitios web en Internet.
-- • Crear sitios web aplicando estándares actuales.
-INSTRUCCIONES:
+- Diseñar adecuadamente elementos gráficos en sitios web en Internet.
+- Crear sitios web aplicando estándares actuales.
+### INSTRUCCIONES:
+
 Se pide tomar como base el sitio web desarrollado en la práctica 01 - Creación de sitio web usando HTML5.
 Luego, se pide utilizar estilos CSS con la finalidad de obtener varios diseños como los que se muestran en las
 siguientes imágenes
-ACTIVIDADES DESARROLLADAS
-1. En al menos una página HTML, un diseño a dos columnas con cabecera y pie de página, como el que se
-muestra en la Figura 2. Se pide tomar como base la página home.
-Figura 2. Diseño de un sitio web con base a dos columnas
+
+###  ACTIVIDADES DESARROLLADAS
+#### 1. En al menos una página HTML, un diseño a dos columnas con cabecera y pie de página, como el que se muestra en la Figura 2. Se pide tomar como base la página home.
+
+##### Figura 2. Diseño de un sitio web con base a dos columnas
 
 
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-1.1. CABEZERA
+#### 1.1. CABECERA
 La cabecera de las paginas muestra imagen con el nombre correspondiente a cada página y también tiene un
 menú horizontal con enlaces a las paginas internas del programa.
-#nav{
-height: 62 px;
-background-color:rgb( 32 , 20 , 20 );
-text-align: center;
-position: relative;
-}
-#nav ul{
-list-style: none;
-display: inline-block;
-}
-#nav ul li{
-float: left;
-margin-top: 20 px;
-}
-#nav ul li a {
-color: white;
-font-weight: bold;
-text-decoration: none;
-font-size: 20 px;
-padding: 20 px;
-}
-#nav ul li a:hover{
-background-color: red;
-}
-1.2. MENÚ
+#### #nav{
+#### height: 62 px;
+#### background-color:rgb( 32 , 20 , 20 );
+#### text-align: center;
+#### position: relative;
+#### }
+#### #nav ul{
+#### list-style: none;
+#### display: inline-block;
+#### }
+#### nav ul li{
+#### float: left;
+#### margin-top: 20 px;
+#### }
+#### #nav ul li a {
+#### color: white;
+#### font-weight: bold;
+#### text-decoration: none;
+#### font-size: 20 px;
+#### padding: 20 px;
+#### }
+#### #nav ul li a:hover{
+#### background-color: red;
+#### }
+
+#### 1.2. MENÚ
 En esta sección se colocó información relevante para cada página debido a que el menú principal ya existía
 en la página de forma horizontal.
 Importante: Se creo una sección principal que contiene a las dos secciones secundarias:
-.seccionContenidoTotal {
-width: 100 %;
-height: 1000 px;
-background-color: rgb( 255 , 255 , 255 );
+#### .seccionContenidoTotal {
+#### width: 100 %;
+#### height: 1000 px;
+#### background-color: rgb( 255 , 255 , 255 );
+#### position: relative; 
+#### }
 
-
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-position: relative;
-}
 EL selector por clase. secContenido es la parte que ocupa nuestro “menú” con respecto a la sección principal
-.secContenido {
-width: 46 %;
-height: 100 %;
-position: relative;
-float: left;
-background-color: rgb( 229 , 226 , 226 );
-padding: 70 px 50 px 70 px 50 px;
-}
-1.3. CONTENIDOS
+#### .secContenido {
+#### width: 46 %;
+#### height: 100 %;
+#### position: relative;
+#### float: left;
+#### background-color: rgb( 229 , 226 , 226 );
+#### padding: 70 px 50 px 70 px 50 px;
+#### }
+
+####  1.3. CONTENIDOS
 El selector por clase secContendio2 es la parte que ocupara nuestro contenido con respecto a la sección
 principal
-.secContenido2 {
-width: 40 %;
-height: 1000 px;
-position: relative;
-float: left;
-background-color: rgb( 255 , 255 , 255 );
-padding: 50 px 50 px 50 px 50 px;
-}
-1.4. PIE DE PÁGINA
+#### .secContenido2 {
+#### width: 40 %;
+#### height: 1000 px;
+#### position: relative;
+#### float: left;
+#### background-color: rgb( 255 , 255 , 255 );
+#### padding: 50 px 50 px 50 px 50 px;
+#### }
+
+#### 1.4. PIE DE PÁGINA
 El pie de pagina se ubica con una etiqueta footer al final de nuestro documento html. Y esta estructurado de
 manera similar a la siguiente forma y colocado en todas las paginas igual.
-
-
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
 El footer principal que contiene todos los elementos esta estructurado de la siguiente forma:
-.foot {
-width: 100 %;
-height: 200 px;
-position: relative;
-background-color: black;
-}
+
+#### .foot {
+#### width: 100 %;
+#### height: 200 px;
+#### position: relative;
+#### background-color: black;
+#### }
 Luego tenemos la parte izquierda de nuestro footer que es en este caso redes sociales, el ocupara solo el 30%
 del ancho total que tiene el footer principal.
-#redes {
-width: 30 %;
-height: 100 %;
-float: left;
-background-color: black;
-}
-.redesS {
-width: 100 %;
-height: 23 %;
-float: right;
-position: relative;
-background-color: black;
-}
+
+#### #redes {
+#### width: 30 %;
+#### height: 100 %;
+#### float: left;
+#### background-color: black;
+#### }
+
+#### .redesS {
+#### width: 100 %;
+#### height: 23 %;
+#### float: right;
+#### position: relative;
+#### background-color: black;
+#### }
+
+
 Luego tenemos la parte de la mitad de nuestro footer que es en este tiene información sobre nosotros como
 empresa. Se utilizo un id para identificar a esta parte que ocupa el 30% de nuestro footer principal.
-#nos{
-width: 30 %;
-height: 100 %;
-float: left;
-color: rgb( 10 , 0 , 0 );
-background: currentColor;
-margin-left: 40 px;
-margin-right: 40 px;
+
+#### #nos{
+#### width: 30 %;
+#### height: 100 %;
+#### float: left;
+#### color: rgb( 10 , 0 , 0 );
+#### background: currentColor;
+#### margin-left: 40 px;
+#### margin-right: 40 px;
+#### }
 
 
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-}
 Luego tenemos la parte derecha de nuestro footer que es en este tiene información sobre alguna ayuda que
 pueda ofrecer nuestro servicio. Se utilizo un id para identificar a esta parte que ocupa el 30% de nuestro footer
 principal.
-#ayu{
-width: 30 %;
-height: 100 %;
-float: left;
-background-color: black;
-}
 
-2. Así, como también se recomienda utilizar, en al menos una página HTML, un diseño a tres columnas con
-    cabecera y pie de página como se muestra en la Figura 3. Se pide tomar como base la página home.
-    Importante: La cabecera y el pie de página serán iguales para cualquier tipo de diseño, ya se de dos
-    columnas o de tres en este trabajo.
-       Figura 3. Diseño de un sitio web con base a tres columnas
-1.1. Menú
-    Al igual que el anterior caso se crea una sección principal que contiene tanto el mene, el contenido y el lateral
-    para luego subdividir para que puede tener el diseño deseado.
-.seccionContenidoTotal3 {
-width: 100 %;
-height: 800 px;
-background-color: rgb( 250 , 250 , 250 );
-position: relative;
+#### #ayu{
+#### width: 30 %;
+#### height: 100 %;
+#### float: left;
+#### background-color: black;
+#### }
 
+### 2. Así, como también se recomienda utilizar, en al menos una página HTML, un diseño a tres columnas concabecera y pie de página como se muestra en la Figura 3. Se pide tomar como base la página home.
+### Importante: La cabecera y el pie de página serán iguales para cualquier tipo de diseño, ya se de dos columnas o de tres en este trabajo.
 
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-}
+##### Figura 3. Diseño de un sitio web con base a tres columnas
+
+#### 1.1. Menú
+ Al igual que el anterior caso se crea una sección principal que contiene tanto el menu, el contenido y el lateral
+ para luego subdividir para que puede tener el diseño deseado.
+ 
+#### .seccionContenidoTotal3 {
+#### width: 100 %;
+#### height: 800 px;
+#### background-color: rgb( 250 , 250 , 250 );
+#### position: relative;
+####  }
 El selector por clase columna 1 ocupa el 10% del ancho de toda nuestra sección principal.
 Se dibujan los bordes y se utiliza float:left para ir ubicando estas sub sección una tras otra.
-.columna1 {
-width: 10 %;
-height: 100 %;;
-border-style: solid;
-border: 1 px;
-position: relative;
-float: left;
-background-color: rgb( 209 , 205 , 205 );
-padding: 50 px 50 px 50 px 50 px;
-}
-1.2. Contenidos
+####  .columna1 {
+####  width: 10 %;
+####  height: 100 %;;
+####  border-style: solid;
+####  border: 1 px;
+####  position: relative;
+####  float: left;
+####  background-color: rgb( 209 , 205 , 205 );
+####  padding: 50 px 50 px 50 px 50 px;
+####  }
+
+####  1.2. Contenidos
 El selector columna2 hace referencia al contenido y es el mas ancho debido que en esta parte estará lo mas
 relevante para la página.
-.columna2{
-width: 50 %;
-height: 100 %;
-border-style: solid;
-border: 1 px;
-position: relative;
-float: left;
-background-color: rgb( 253 , 251 , 251 );
-padding: 50 px 50 px 50 px 50 px;
-}
+####  .columna2{
+####  width: 50 %;
+####  height: 100 %;
+####  border-style: solid;
+####  border: 1 px;
+####  position: relative;
+####  float: left;
+####  background-color: rgb( 253 , 251 , 251 );
+####  padding: 50 px 50 px 50 px 50 px;
+####  }
 1.3. Lateral
 El selector por clase columna 3 hace referencia al contenido y es menos ancho que nuestro contenido.
-.columna3 {
-width: 20 %;
-height: 100 %;
-border-style: solid;
-border: 1 px;
-position: relative;
+####  .columna3 {
+####  width: 20 %;
+####  height: 100 %;
+####  border-style: solid;
+####  border: 1 px;
+####  position: relative;
+####  float: left;
+####  background-color: rgb( 245 , 241 , 241 );
+####  padding: 50 px 50 px 50 px 50 px;
+####  }
 
+###  2. De igual manera, se pide que se organice en al menos cuatro archivos CSS los estilos para las diferentes páginas html, estos archivos estarán almacenados en una carpeta llamada css. Un archivo será para el diseño a dos columnas, otro archivo para el diseño a tres columnas, otro archivo para el diseño de la página home. Por último, un archivo para la regla CSS relacionas a textos, colores, tablas, secciones, artículos, imágenes, etc.
 
-CONSEJO ACADÉMICO Aprobación: 2016 / 04 / 06
-Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
-float: left;
-background-color: rgb( 245 , 241 , 241 );
-padding: 50 px 50 px 50 px 50 px;
-}
-
-2. De igual manera, se pide que se organice en al menos cuatro archivos CSS los estilos para las diferentes
-    páginas html, estos archivos estarán almacenados en una carpeta llamada css. Un archivo será para el
-    diseño a dos columnas, otro archivo para el diseño a tres columnas, otro archivo para el diseño de la página
-    home. Por último, un archivo para la regla CSS relacionas a textos, colores, tablas, secciones, artículos,
-    imágenes, etc.
-    1. Contenido de configuración
+1. Contenido de configuración
        Se mostrará partes del código especificas debido a que el archivo es muy extenso.
        Para el logo:
        Se crea una sección general de logo la cual se divide en tres secciones la primera que será para la imagen
