@@ -1,0 +1,118 @@
+/* /////////////////////////////////////// DOS COLUMNAS/////////////////////////////////////*/
+
+/*////////////////////SECCION MENU VERTICAL///////////////////////////*/
+
+
+.seccionContenidoTotal {
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+
+}
+
+
+.secContenido {
+
+    width: 46%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background-color: rgb(229, 226, 226);
+    padding: 70px 50px 70px 50px;
+
+}
+
+.secContenido2 {
+
+    width: 40%;
+    height: 1000px;
+    position: relative;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 50px 50px 50px;
+}
+
+
+.seccionRedonda{
+    border-radius: 40px;
+    border-style: solid;
+    padding: 20px 20px 20px 20px;
+    border-color: rgb(211, 210, 210);
+}
+
+
+
+.tablaClasi {
+    width: 90%;
+    float: left;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0%;
+    border-radius: 20px;
+    
+}
+
+
+
+
+
+
+.tablaClasi table{
+    width: 80%;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    background-color: white;
+    border-color: rgb(153, 15, 15);
+    margin-top: 100px;
+
+}
+
+
+.tablaClasi h1{
+    color:  #e60606;
+}
+.tablaClasi table tr td {
+    border-radius: 0px;
+    border-color:rgb(153, 151, 151);
+    border-style: solid;
+    
+    
+}
+
+
+
+
+.tablaCasi table tbody{
+    background-color:rgb(31, 6, 6);
+}
+
+.tabla table thead, th,td {
+    background-color: #d1c8c8c9;
+    width: 10%;
+    text-align: center;
+    vertical-align: 3%;
+    border-color: rgb(16, 0, 0);
+    color: rgb(22, 1, 1);
+    
+}
+
+
+
+.secContenido h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px ;
+    color: rgb(231, 12, 12);
+}
+
+.secContenido h3{
+    text-align: left;
+    margin: 10px;
+    font-size: 16px ;
+    color: rgb(250, 7, 7);
+}
+.secContenido p{
+    font-size: 15px ;
+    color: rgb(5, 0, 0);
+}

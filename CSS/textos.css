@@ -28,6 +28,86 @@ h4 {
 
     color: white;
     font-size: 100%;
-    font-family: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h7 {
+    color:rgb(46, 6, 6);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h6 {
+    color:rgb(46, 6, 6);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+a {
+    list-style: none;
+    color:rgb(250, 249, 249);
+    text-align: center;
+    font-size: 30px;
+    font-family:  initiaL ;
+    
+}
+
+
+.cuerpoBlanco {
+    color:white;
+    font-family: Prata;
+    text-align: left;
+    margin-left: 80px;
+
+}
+
+.centrado{
+    text-align:center;
+    width: 100%;
+    float: left;
+}
+
+.imagenRedonda {
+    border-radius: 100%;
+    border-color: rgb(247, 8, 8);
+    border-style: solid;
+    padding: 5px 5px 5px 5px;
+}
+
+.imagenRedonda1 {
+    border-radius: 100%;
+    border-color: white;
+    border-style: solid;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.fondoEntero{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+
+/* ////////////////////////////////////////////////////// LIMPIAR /////////////////////////////////////////////*/
+  
+.separador{
+    width: 100%;
+    background-color: rgb(26, 2, 2);
+    clear: both;
+}
+
+.comentarioParrafo p {
+    font-size: 17px;
+    font-family: -WEBKIT-PICTOGRAPH;
+    text-align: justify;
+}
+
+.justificado {
+    text-align: justify;
+      
+}
+
+
+
+/*////////////////////////////////TABLA ANME///////////////////////////////*/
